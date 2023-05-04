@@ -1,0 +1,46 @@
+{
+  "button": {
+    "primary": {
+      "bg-color": {
+        "value": "{yellow-600}",
+        "type": "color"
+      },
+      "txt-color": {
+        "value": "{gray-900}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{yellow-600}",
+        "type": "color"
+      }
+    },
+    "negative": {
+      "bg-color": {
+        "value": "{red-700}",
+        "type": "color"
+      },
+      "txt-color": {
+        "value": "{gray-100}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{red-700}",
+        "type": "color"
+      }
+    },
+    "outline": {
+      "bg-color": {
+        "value": "{eggshell-100}",
+        "type": "color"
+      },
+      "txt-color": {
+        "value": "{plum-900}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{plum-900}",
+        "type": "color"
+      }
+    }
+  }
+}

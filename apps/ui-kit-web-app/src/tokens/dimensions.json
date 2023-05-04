@@ -1,0 +1,134 @@
+{
+  "dimen-0": {
+    "value": "0px",
+    "type": "dimension"
+  },
+  "dimen-15": {
+    "value": "1px",
+    "type": "dimension"
+  },
+  "dimen-30": {
+    "value": "2px",
+    "type": "dimension"
+  },
+  "dimen-40": {
+    "value": "3px",
+    "type": "dimension"
+  },
+  "dimen-55": {
+    "value": "4px",
+    "type": "dimension"
+  },
+  "dimen-65": {
+    "value": "5px",
+    "type": "dimension"
+  },
+  "dimen-80": {
+    "value": "6px",
+    "type": "dimension"
+  },
+  "dimen-90": {
+    "value": "7px",
+    "type": "dimension"
+  },
+  "dimen-105": {
+    "value": "8px",
+    "type": "dimension"
+  },
+  "dimen-115": {
+    "value": "9px",
+    "type": "dimension"
+  },
+  "dimen-130": {
+    "value": "10px",
+    "type": "dimension"
+  },
+  "dimen-140": {
+    "value": "11px",
+    "type": "dimension"
+  },
+  "dimen-155": {
+    "value": "12px",
+    "type": "dimension"
+  },
+  "dimen-165": {
+    "value": "13px",
+    "type": "dimension"
+  },
+  "dimen-180": {
+    "value": "14px",
+    "type": "dimension"
+  },
+  "dimen-190": {
+    "value": "15px",
+    "type": "dimension"
+  },
+  "dimen-205": {
+    "value": "16px",
+    "type": "dimension"
+  },
+  "dimen-215": {
+    "value": "17px",
+    "type": "dimension"
+  },
+  "dimen-230": {
+    "value": "18px",
+    "type": "dimension"
+  },
+  "dimen-240": {
+    "value": "19px",
+    "type": "dimension"
+  },
+  "dimen-255": {
+    "value": "20px",
+    "type": "dimension"
+  },
+  "dimen-265": {
+    "value": "21px",
+    "type": "dimension"
+  },
+  "dimen-280": {
+    "value": "22px",
+    "type": "dimension"
+  },
+  "dimen-290": {
+    "value": "23px",
+    "type": "dimension"
+  },
+  "dimen-305": {
+    "value": "24px",
+    "type": "dimension"
+  },
+  "dimen-315": {
+    "value": "25px",
+    "type": "dimension"
+  },
+  "dimen-330": {
+    "value": "26px",
+    "type": "dimension"
+  },
+  "dimen-340": {
+    "value": "27px",
+    "type": "dimension"
+  },
+  "dimen-355": {
+    "value": "28px",
+    "type": "dimension"
+  },
+  "dimen-365": {
+    "value": "29px",
+    "type": "dimension"
+  },
+  "dimen-380": {
+    "value": "30px",
+    "type": "dimension"
+  },
+  "dimen-390": {
+    "value": "31px",
+    "type": "dimension"
+  },
+  "dimen-400": {
+    "value": "32px",
+    "type": "dimension"
+  }
+}

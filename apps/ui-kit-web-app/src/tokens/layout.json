@@ -1,0 +1,14 @@
+{
+  "border-radius-0": {
+    "value": "{dimen-0}",
+    "type": "borderRadius"
+  },
+  "border-radius-100": {
+    "value": "{dimen-100}",
+    "type": "borderRadius"
+  },
+  "border-radius-120": {
+    "value": "{dimen-20}",
+    "type": "borderRadius"
+  }
+}
