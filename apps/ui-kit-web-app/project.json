@@ -47,7 +47,6 @@
         }
       }
     },
-
     "build-tokens": {
       "executor": "nx:run-commands",
       "options": {
