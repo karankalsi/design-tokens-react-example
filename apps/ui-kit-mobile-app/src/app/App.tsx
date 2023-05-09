@@ -1,21 +1,16 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 import AppStyles from './App.styles';
+import Button from './Button';
 
 const App: React.FC = () => {
   return (
     <View style={AppStyles.container}>
-      <View style={AppStyles.buttonPrimary}>
-        <Text style={AppStyles.buttonPrimaryText}>Button</Text>
-      </View>
+      <Button.Primary title='Button'/>
       <View style={AppStyles.spacer}/>
-      <View style={AppStyles.buttonNegative}>
-        <Text style={AppStyles.buttonNegativeText}>Button</Text>
-      </View>
+      <Button.Negative title='Button'/>
       <View style={AppStyles.spacer}/>
-      <View style={AppStyles.buttonOutline}>
-        <Text style={AppStyles.buttonOutlineText}>Button</Text>
-      </View>
+      <Button.Outline title='Button'/>
     </View>
   );
 };

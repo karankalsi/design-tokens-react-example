@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 13:57:54 GMT
+ * Generated on Tue, 09 May 2023 04:14:16 GMT
  */
 
 export const buttonPrimaryBgColor = "#FDB71C";
@@ -15,7 +15,7 @@ export const buttonOutlineBgColor = "#FFFFFF";
 export const buttonOutlineTxtColor = "#331D26";
 export const buttonOutlineBorderColor = "#331D26";
 export const buttonOutlineBorder = {"color":"#331D26","width":"1px","style":"solid"};
-export const buttonBorderRadius = "0px";
+export const buttonBorderRadius = "2px";
 export const buttonSpacingHorizontal = "12px";
 export const buttonSpacingVertical = "8px";
 export const plum100 = "#F0E6EA";
