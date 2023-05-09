@@ -8,7 +8,15 @@
     "type": "borderRadius"
   },
   "border-radius-120": {
-    "value": "{dimen-20}",
+    "value": "{dimen-120}",
+    "type": "borderRadius"
+  },
+  "border-radius-240": {
+    "value": "{dimen-240}",
+    "type": "borderRadius"
+  },
+  "border-radius-80": {
+    "value": "{dimen-80}",
     "type": "borderRadius"
   }
 }

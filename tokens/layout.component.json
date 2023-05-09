@@ -31,7 +31,7 @@
       }
     },
     "border-radius": {
-      "value": "{border-radius-120}",
+      "value": "{border-radius-80}",
       "type": "borderRadius"
     },
     "spacing": {
@@ -43,6 +43,12 @@
         "value": "{dimen-80}",
         "type": "spacing"
       }
+    }
+  },
+  "card": {
+    "border-radius": {
+      "value": "{border-radius-240}",
+      "type": "borderRadius"
     }
   }
 }

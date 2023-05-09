@@ -1,18 +1,30 @@
 import {StyleSheet} from 'react-native';
 import {
-  gray100,
+  cardCaptionColor,
+  cardTitleColor,
+  dimen120,
   dimen240,
+  screenBgColor,
 } from '../tokens';
 
 
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: gray100,
+    backgroundColor: screenBgColor,
     alignItems: 'center',
     justifyContent: 'center',
   },
   spacer: {
     height: dimen240,
   },
+  cardActionContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: dimen120,
+    marginBottom: dimen240,
+  },
+  actionCardHeaderText: { fontWeight: 'bold', color: cardTitleColor },
+  actionCardTncText: { textAlign: 'justify', color: cardCaptionColor },
+  actionCardTncScrollContainer: { flex: 1, marginTop: dimen240 }
 });

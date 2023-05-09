@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 May 2023 04:14:16 GMT
+ * Generated on Tue, 09 May 2023 06:56:33 GMT
  */
 
 export const buttonPrimaryBgColor = "#FDB71C";
@@ -15,9 +15,15 @@ export const buttonOutlineBgColor = "#FFFFFF";
 export const buttonOutlineTxtColor = "#331D26";
 export const buttonOutlineBorderColor = "#331D26";
 export const buttonOutlineBorder = {"color":"#331D26","width":1,"style":"solid"};
-export const buttonBorderRadius = 2;
+export const buttonBorderRadius = 8;
 export const buttonSpacingHorizontal = 12;
 export const buttonSpacingVertical = 8;
+export const cardBgColor = "#F5F5F5";
+export const cardTitleColor = "#000000";
+export const cardCaptionColor = "#595555";
+export const cardShadowColor = "#000000";
+export const cardBorderRadius = 24;
+export const screenBgColor = "#FFFFFF";
 export const plum100 = "#F0E6EA";
 export const plum200 = "#E8DAE0";
 export const plum300 = "#DBC3CD";
@@ -148,4 +154,6 @@ export const dimen360 = 36;
 export const dimen370 = 37;
 export const borderRadius0 = 0;
 export const borderRadius100 = 10;
-export const borderRadius120 = 2;
+export const borderRadius120 = 12;
+export const borderRadius240 = 24;
+export const borderRadius80 = 8;
