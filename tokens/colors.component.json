@@ -55,10 +55,6 @@
     "caption-color": {
       "value": "{gray-700}",
       "type": "color"
-    },
-    "shadow-color": {
-      "value": "{gray-900}",
-      "type": "color"
     }
   },
   "screen": {

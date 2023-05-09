@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 May 2023 10:22:27 GMT
+ * Generated on Tue, 09 May 2023 10:27:24 GMT
  */
 
 export const buttonPrimaryBgColor = "#FDB71C";
@@ -21,7 +21,6 @@ export const buttonSpacingVertical = "8px";
 export const cardBgColor = "#F5F5F5";
 export const cardTitleColor = "#000000";
 export const cardCaptionColor = "#595555";
-export const cardShadowColor = "#000000";
 export const cardBorderRadius = "24px";
 export const screenBgColor = "#FFFFFF";
 export const plum100 = "#F0E6EA";
