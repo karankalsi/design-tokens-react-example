@@ -4,15 +4,15 @@ import AppStyles from './App.styles';
 import Button from './Button';
 import Card from './Card';
 import { dimen240 } from '../tokens';
-import { tnc } from './constants';
+import { tnc, tnc_header } from './constants';
 
 const App: React.FC = () => {
   return (
     <View style={AppStyles.container}>
       <Card>
-        <View style={{ flex: 1, padding: dimen240, marginTop: dimen240 }}>
+        <View style={AppStyles.cardContainer}>
           <Text style={AppStyles.actionCardHeaderText}>
-            In order to use the app, you need to accept terms and condition
+            {tnc_header}
           </Text>
           <ScrollView style={AppStyles.actionCardTncScrollContainer}>
             <Text style={AppStyles.actionCardTncText}>{tnc}</Text>

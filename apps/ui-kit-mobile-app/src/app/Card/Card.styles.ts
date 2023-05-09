@@ -5,6 +5,7 @@ export default StyleSheet.create({
   container: {
     width: 360,
     minHeight: 380,
+    padding: dimen240,
     flexDirection: 'column',
     marginHorizontal: dimen240,
     backgroundColor: cardBgColor,

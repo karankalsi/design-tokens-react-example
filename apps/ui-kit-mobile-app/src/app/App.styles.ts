@@ -18,11 +18,11 @@ export default StyleSheet.create({
   spacer: {
     height: dimen240,
   },
+  cardContainer: { flex: 1 },
   cardActionContainer: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     marginTop: dimen120,
-    marginBottom: dimen240,
   },
   actionCardHeaderText: { fontWeight: 'bold', color: cardTitleColor },
   actionCardTncText: { textAlign: 'justify', color: cardCaptionColor },

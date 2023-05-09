@@ -1,70 +1,43 @@
 import styled from 'styled-components';
-import {
-  buttonSpacingHorizontal,
-  buttonSpacingVertical,
-  buttonBorderRadius,
-  buttonPrimaryBgColor,
-  buttonPrimaryTxtColor,
-  buttonPrimaryBorder,
-  buttonNegativeBgColor,
-  buttonNegativeTxtColor,
-  buttonNegativeBorder,
-  buttonOutlineBgColor,
-  buttonOutlineTxtColor,
-  buttonOutlineBorder
-} from '../tokens';
+import Button from './Button';
+import Card from './Card';
+import { tnc, tnc_header } from './contants';
+import AppStyles from './App.styles';
 
-const StyledApp = styled.div`
-  display: inline-block;
-  flex-direction: column;
-  margin: 24px;
+const AppContainer = styled.div`
+  ${AppStyles.container}
 `;
 
-const baseButtonStyles = `
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-border-radius: ${buttonBorderRadius};
-padding-left: ${buttonSpacingHorizontal};
-padding-right: ${buttonSpacingHorizontal};
-padding-top: ${buttonSpacingVertical};
-padding-bottom: ${buttonSpacingVertical};
+const CardCaptionScrollContainer = styled.div`
+  ${AppStyles.cardCaptionScrollContainerStyle}
 `;
 
-const PrimaryButton = styled.a`
-  ${baseButtonStyles}
-  background-color: ${buttonPrimaryBgColor};
-  border: ${buttonPrimaryBorder.width} ${buttonPrimaryBorder.style} ${buttonPrimaryBorder.color};
-  color: ${buttonPrimaryTxtColor};
+const CardActionContainer = styled.div`
+  ${AppStyles.cardActionContainerStyle}
 `;
 
-const NegativeButton = styled.a`
-  ${baseButtonStyles}
-  background-color: ${buttonNegativeBgColor};
-  border: ${buttonNegativeBorder.width} ${buttonNegativeBorder.style} ${buttonNegativeBorder.color};
-  color: ${buttonNegativeTxtColor};
+const CardTitleContainer = styled.div`
+  ${AppStyles.cardTitleContainerStyle}
 `;
 
-
-const OutlineButton = styled.a`
-  ${baseButtonStyles}
-  background-color: ${buttonOutlineBgColor};
-  border: ${buttonOutlineBorder.width} ${buttonOutlineBorder.style} ${buttonOutlineBorder.color};
-  color: ${buttonOutlineTxtColor};
+const CardCaptionContainer = styled.div`
+  ${AppStyles.cardCaptionContainerStyle}
 `;
 
 export function App() {
   return (
-    <StyledApp>
-      <PrimaryButton>Button</PrimaryButton>
-      <br />
-      <br />
-      <NegativeButton>Button</NegativeButton>
-      <br />
-      <br />
-      <OutlineButton>Button</OutlineButton>
-    </StyledApp>
+    <AppContainer>
+      <Card>
+        <CardTitleContainer>{tnc_header}</CardTitleContainer>
+        <CardCaptionScrollContainer>
+          <CardCaptionContainer>{tnc}</CardCaptionContainer>
+        </CardCaptionScrollContainer>
+        <CardActionContainer>
+          <Button.Negative title={'Decline'} />
+          <Button.Primary title={'Accept'} />
+        </CardActionContainer>
+      </Card>
+    </AppContainer>
   );
 }
 
