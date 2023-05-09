@@ -23,6 +23,7 @@ padding-left: ${buttonSpacingHorizontal};
 padding-right: ${buttonSpacingHorizontal};
 padding-top: ${buttonSpacingVertical};
 padding-bottom: ${buttonSpacingVertical};
+font-family: sans-serif;
 `;
 
 const primaryButtonStyle = `
