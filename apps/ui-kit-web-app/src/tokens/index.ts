@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 May 2023 06:56:32 GMT
+ * Generated on Tue, 09 May 2023 10:22:27 GMT
  */
 
 export const buttonPrimaryBgColor = "#FDB71C";
