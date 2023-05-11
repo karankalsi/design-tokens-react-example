@@ -5,39 +5,45 @@ StyleDictionary.registerTransform({
   name: 'size/pt',
   type: 'value',
   transitive: true,
-  matcher: token => ['fontSizes', 'dimension', 'borderRadius', 'spacing'].includes(token.type),
-  transformer: token => Number(String(token.value).replace(/[A-Z]+/ig, '')),
+  matcher: (token) =>
+    ['fontSizes', 'dimension', 'borderRadius', 'spacing'].includes(token.type),
+  transformer: (token) => Number(String(token.value).replace(/[A-Z]+/gi, '')),
 });
 
 StyleDictionary.registerTransform({
   name: 'name/camel',
   type: 'name',
   transitive: true,
-  transformer: (token) => changeCase.camelCase(token.path.join('.')).replace(/[\-\_]*/g, ''),
+  transformer: (token) =>
+    changeCase.camelCase(token.path.join('.')).replace(/[\-\_]*/g, ''),
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'ui-kit-mobile',
-  transforms: [ 'size/pt', 'name/camel']
-})
-
-const sd = StyleDictionary.extend({
-    "source": ["tokens/**/*.json"],
-    "platforms": {
-      "rn": {
-        "transformGroup": ["ui-kit-mobile"],
-        "buildPath": "apps/ui-kit-mobile-app/src/tokens/",
-        "files": [
-          {
-            "destination": "index.ts",
-            "format": "javascript/es6"
-          }
-        ]
-      }
-    }
+  transforms: ['size/pt', 'name/camel'],
 });
 
-
+const sd = StyleDictionary.extend({
+  source: [
+    'tokens/colors.json',
+    'tokens/colors-component.json',
+    'tokens/dimensions.native.json',
+    'tokens/layout.json',
+    'tokens/layout-component.json',
+  ],
+  platforms: {
+    rn: {
+      transformGroup: ['ui-kit-mobile'],
+      buildPath: 'apps/ui-kit-mobile-app/src/tokens/',
+      files: [
+        {
+          destination: 'index.ts',
+          format: 'javascript/es6',
+        },
+      ],
+    },
+  },
+});
 
 sd.cleanAllPlatforms();
 sd.buildAllPlatforms();
