@@ -27,9 +27,10 @@ const sd = StyleDictionary.extend({
   source: [
     'tokens/colors.json',
     'tokens/colors-component.json',
-    'tokens/dimensions.native.json',
-    'tokens/layout.json',
-    'tokens/layout-component.json',
+    'tokens/dimensions.mobile.json',
+    'tokens/border-radius.json',
+    'tokens/border-width.json',
+    'tokens/component.json',
   ],
   platforms: {
     rn: {

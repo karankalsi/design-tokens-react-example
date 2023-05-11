@@ -6,13 +6,14 @@ import {
     buttonBorderRadius,
     buttonPrimaryBgColor,
     buttonPrimaryTxtColor,
-    buttonPrimaryBorder,
+    buttonPrimaryBorderColor,
     buttonNegativeBgColor,
     buttonNegativeTxtColor,
-    buttonNegativeBorder,
+    buttonNegativeBorderColor,
     buttonOutlineBgColor,
     buttonOutlineTxtColor,
-    buttonOutlineBorder
+    buttonOutlineBorderColor,
+    buttonBorderWidth,
   } from '../../tokens';
   
   const baseButtonStyle = {
@@ -27,8 +28,8 @@ export default StyleSheet.create({
   buttonPrimary: {
     ...baseButtonStyle,
     backgroundColor: buttonPrimaryBgColor,
-    borderWidth: buttonPrimaryBorder.width,
-    borderColor: buttonPrimaryBorder.color,
+    borderWidth: buttonBorderWidth,
+    borderColor: buttonPrimaryBorderColor,
   },
   buttonPrimaryText: {
     color: buttonPrimaryTxtColor
@@ -37,8 +38,8 @@ export default StyleSheet.create({
   buttonNegative: {
     ...baseButtonStyle,
     backgroundColor: buttonNegativeBgColor,
-    borderWidth: buttonNegativeBorder.width,
-    borderColor: buttonNegativeBorder.color,
+    borderWidth: buttonBorderWidth,
+    borderColor: buttonNegativeBorderColor,
   },
   buttonNegativeText: {
     color:buttonNegativeTxtColor
@@ -47,8 +48,8 @@ export default StyleSheet.create({
   buttonOutline: {
     ...baseButtonStyle,
     backgroundColor: buttonOutlineBgColor,
-    borderWidth: buttonOutlineBorder.width,
-    borderColor: buttonOutlineBorder.color,
+    borderWidth: buttonBorderWidth,
+    borderColor: buttonOutlineBorderColor,
   },
   buttonOutlineText: {
     color:buttonOutlineTxtColor

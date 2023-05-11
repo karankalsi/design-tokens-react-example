@@ -1,16 +1,17 @@
 import {
   buttonSpacingHorizontal,
   buttonSpacingVertical,
-  buttonBorderRadius,
   buttonPrimaryBgColor,
   buttonPrimaryTxtColor,
-  buttonPrimaryBorder,
   buttonNegativeBgColor,
   buttonNegativeTxtColor,
-  buttonNegativeBorder,
   buttonOutlineBgColor,
   buttonOutlineTxtColor,
-  buttonOutlineBorder,
+  buttonBorderWidth,
+  buttonBorderRadius,
+  buttonPrimaryBorderColor,
+  buttonNegativeBorderColor,
+  buttonOutlineBorderColor
 } from '../../tokens';
 
 const baseButtonStyle = `
@@ -29,21 +30,21 @@ font-family: sans-serif;
 const primaryButtonStyle = `
   ${baseButtonStyle}
   background-color: ${buttonPrimaryBgColor};
-  border: ${buttonPrimaryBorder.width} ${buttonPrimaryBorder.style} ${buttonPrimaryBorder.color};
+  border: ${buttonBorderWidth} solid ${buttonPrimaryBorderColor};
   color: ${buttonPrimaryTxtColor};
 `;
 
 const negativeButtonStyle = `
   ${baseButtonStyle}
   background-color: ${buttonNegativeBgColor};
-  border: ${buttonNegativeBorder.width} ${buttonNegativeBorder.style} ${buttonNegativeBorder.color};
+  border: ${buttonBorderWidth} solid ${buttonNegativeBorderColor};
   color: ${buttonNegativeTxtColor};
 `;
 
 const outlineButtonStyle = `
   ${baseButtonStyle}
   background-color: ${buttonOutlineBgColor};
-  border: ${buttonOutlineBorder.width} ${buttonOutlineBorder.style} ${buttonOutlineBorder.color};
+  border: ${buttonBorderWidth} solid ${buttonOutlineBorderColor};
   color: ${buttonOutlineTxtColor};
 `;
 

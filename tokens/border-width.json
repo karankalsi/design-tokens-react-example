@@ -1,0 +1,16 @@
+{
+  "border-width": {
+    "small": {
+      "value": "{dimen-10}",
+      "type": "borderWidth"
+    },
+    "medium": {
+      "value": "{dimen-20}",
+      "type": "borderWidth"
+    },
+    "large": {
+      "value": "{dimen-30}",
+      "type": "borderWidth"
+    }
+  }
+}

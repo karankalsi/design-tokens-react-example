@@ -19,8 +19,9 @@ const sd = StyleDictionary.extend({
     'tokens/colors.json',
     'tokens/colors-component.json',
     'tokens/dimensions.json',
-    'tokens/layout.json',
-    'tokens/layout-component.json',
+    'tokens/border-radius.json',
+    'tokens/border-width.json',
+    'tokens/component.json',
   ],
   platforms: {
     rn: {

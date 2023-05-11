@@ -1,0 +1,28 @@
+{
+  "button": {
+    "spacing": {
+      "horizontal": {
+        "value": "{dimen-120}",
+        "type": "spacing"
+      },
+      "vertical": {
+        "value": "{dimen-80}",
+        "type": "spacing"
+      }
+    },
+    "border-width": {
+      "value": "{border-width.small}",
+      "type": "borderWidth"
+    },
+    "border-radius": {
+      "value": "{border-radius-120}",
+      "type": "borderRadius"
+    }
+  },
+  "card": {
+    "border-radius": {
+      "value": "{border-radius-240}",
+      "type": "borderRadius"
+    }
+  }
+}

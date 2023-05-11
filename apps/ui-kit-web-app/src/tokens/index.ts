@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 11 May 2023 06:49:43 GMT
+ * Generated on Thu, 11 May 2023 09:39:59 GMT
  */
 
 export const plum100 = "#F0E6EA";
@@ -78,18 +78,16 @@ export const gray900 = "#000000";
 export const buttonPrimaryBgColor = "#FDB71C";
 export const buttonPrimaryTxtColor = "#000000";
 export const buttonPrimaryBorderColor = "#FDB71C";
-export const buttonPrimaryBorder = {"color":"#FDB71C","width":"1px","style":"solid"};
 export const buttonNegativeBgColor = "#C3402C";
 export const buttonNegativeTxtColor = "#F5F5F5";
 export const buttonNegativeBorderColor = "#C3402C";
-export const buttonNegativeBorder = {"width":"1px","color":"#C3402C","style":"solid"};
 export const buttonOutlineBgColor = "#FFFFFF";
 export const buttonOutlineTxtColor = "#331D26";
 export const buttonOutlineBorderColor = "#331D26";
-export const buttonOutlineBorder = {"color":"#331D26","width":"1px","style":"solid"};
-export const buttonBorderRadius = "8px";
 export const buttonSpacingHorizontal = "12px";
 export const buttonSpacingVertical = "8px";
+export const buttonBorderWidth = "1px";
+export const buttonBorderRadius = "12px";
 export const cardBgColor = "#F5F5F5";
 export const cardTitleColor = "#000000";
 export const cardCaptionColor = "#595555";
@@ -141,3 +139,6 @@ export const borderRadius100 = "10px";
 export const borderRadius120 = "12px";
 export const borderRadius240 = "24px";
 export const borderRadius80 = "8px";
+export const borderWidthSmall = "1px";
+export const borderWidthMedium = "2px";
+export const borderWidthLarge = "3px";
